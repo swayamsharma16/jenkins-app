@@ -12,7 +12,7 @@ pipeline {
             steps {
                 sh '''
                 echo Hello World
-                ls-la
+                ls -la
                 node --version
                 npm --version
                 npm ci
